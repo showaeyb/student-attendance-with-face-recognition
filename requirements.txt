@@ -1,0 +1,20 @@
+blinker==1.9.0
+click==8.3.1
+cmake==4.2.1
+colorama==0.4.6
+dlib @ file:///F:/2025F/pf%20lab/project/dlib-19.24.1-cp311-cp311-win_amd64.whl
+face-recognition==1.3.0
+face-recognition-models==0.3.0
+Flask==3.1.2
+itsdangerous==2.2.0
+Jinja2==3.1.6
+MarkupSafe==3.0.3
+numpy==1.24.4
+opencv-python==4.7.0.72
+pandas==2.3.3
+pillow==12.1.0
+python-dateutil==2.9.0.post0
+pytz==2025.2
+six==1.17.0
+tzdata==2025.3
+Werkzeug==3.1.3
