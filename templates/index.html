@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attendance System</title>
+    <style>
+        body { text-align: center; font-family: Arial; padding-top: 50px; }
+        .btn { padding: 20px 40px; font-size: 24px; cursor: pointer; background: #28a745; color: white; border: none; border-radius: 10px; }
+        .error { color: red; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Face Recognition Attendance</h1>
+    <a href="/mark"><button class="btn">Mark Your Attendance</button></a>
+    
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        {% for message in messages %}
+          <p class="error">{{ message }}</p>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+</body>
+</html>
